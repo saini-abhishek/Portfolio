@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Image from "next/image";
-import AnimatedText from "./components/AnimatedText";
 import Link from "next/link";
 import { LinkArrow } from "./components/Icon";
 import HireMe from "./components/HireMe";
 import TextTypingAnimation from "./about/TextTypingAnimation";
 import Animate from "./components/Animate";
+import ProfileImg from "../../public/images/profile/abhishek-saini.webp";
 
 export default function Home() {
   return (
@@ -18,11 +18,9 @@ export default function Home() {
         <div className="flex items-center justify-between w-full">
           <div className="w-1/2">
             <Image
-              src="/images/profile/abhishek-saini.png"
+              src={ProfileImg}
               alt="abhishek-saini"
               className="w-full h-auto rounded-[50%]"
-              width={500}
-              height={500}
             />
           </div>
           <div className="w-1/2 flex flex-col items-center self-center">
