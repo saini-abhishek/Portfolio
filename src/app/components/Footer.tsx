@@ -4,14 +4,14 @@ import Link from "next/link";
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="w-full border border-t-2 border-solid border-dark font-medium text-lg">
+        <footer className="w-full border-0 border-t-2 border-solid border-dark dark:border-light font-medium text-lg dark:text-light sm:text-base">
             <div
-                className={`w-full h-full z-0 bg-light p-32 py-8 flex items-center justify-between`}
+                className={`w-full h-full z-0 bg-light dark:bg-dark p-24 sm:p-12 py-8 flex items-center justify-between lg:flex-col lg:py-6`}
             >
                 <span>{currentYear} &copy; All Rights Resevered</span>
-                <div className="flex items-center">
+                <div className="flex items-center lg:py-2">
                     Build with{" "}
-                    <span className="text-primary text-2xl px-1">&#9825;</span>{" "}
+                    <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>{" "}
                     by&nbsp;
                     <Link
                         href="/"
