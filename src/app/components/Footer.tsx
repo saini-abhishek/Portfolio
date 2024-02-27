@@ -8,7 +8,7 @@ const Footer = () => {
             <div
                 className={`w-full h-full z-0 bg-light dark:bg-dark p-24 sm:p-12 py-8 flex items-center justify-between lg:flex-col lg:py-6`}
             >
-                <span>{currentYear} &copy; All Rights Resevered</span>
+                <span>{currentYear} &copy; No  copyright issues.</span>
                 <div className="flex items-center lg:py-2">
                     Build with{" "}
                     <span className="text-primary dark:text-primaryDark text-2xl px-1">&#9825;</span>{" "}
@@ -22,7 +22,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <Link
-                    href="/"
+                    href={"mailto:atumabhi@gmail.coom"}
                     target={"_blank"}
                     className="underline underline-offset-2"
                 >

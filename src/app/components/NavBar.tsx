@@ -62,7 +62,7 @@ const CustomMobileLink = ({
     return (
         <button
             onClick={handleClick}
-            className={`${className} relative group text-ligh dark:text-dark my-2`}
+            className={`${className} relative group text-light dark:text-dark my-2`}
         >
             {title}
             <span
@@ -107,7 +107,7 @@ const NavBar = () => {
     };
 
     return (
-        <header className="items-center justify-between w-full px-32 py-8 font-medium flex dark:text-light relative z-10 lg:px-16 md:px-12 sm:px-8 ">
+        <header className="dark:bg-dark items-center justify-between w-full px-32 py-8 font-medium flex text-dark dark:text-light relative lg:px-16 md:px-12 sm:px-8 ">
             <button
                 onClick={handleClick}
                 className="flex-col justify-center items-center hidden lg:flex"
@@ -123,7 +123,7 @@ const NavBar = () => {
                     }`}
                 ></span>
                 <span
-                    className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm translate-y-0.5 transition-all duration-300 ease-out ${
+                    className={`bg-dark dark:bg-light block h-0.5 w-6 rounded-sm transition-all duration-300 ease-out ${
                         isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
                     }`}
                 ></span>
@@ -213,12 +213,12 @@ const NavBar = () => {
                             className=""
                             toggle={handleClick}
                         />
-                        <CustomMobileLink
+                        {/* <CustomMobileLink
                             href="/articles"
                             title="Articles"
                             className=""
                             toggle={handleClick}
-                        />
+                        /> */}
                     </nav>
                     <nav className="flex items-center justify-center flex-wrap mt-2">
                         {SOCIAL_NAV_ITMES.map(
