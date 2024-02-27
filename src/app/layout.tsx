@@ -4,7 +4,6 @@ import "./globals.css";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Script from "next/script";
-import TransitionEffect from "./components/TransitionEffect";
 
 const montserrat = Montserrat({
     subsets: ["latin"],
