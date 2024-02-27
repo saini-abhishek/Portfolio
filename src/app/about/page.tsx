@@ -19,7 +19,7 @@ const about = () => {
         text="Passion Fuels Purpose!"
         className="mb-16 xs:!text-4xl sm:!text-6xl md:!text-7xl sm:mb-8"
       />
-      <div className="grid w-full grid-cols-8 gap-16 sm-gap-0">
+      <div className="grid w-full grid-cols-8 gap-16 sm:gap-0">
         <div className="col-span-6 xl:col-span-8 flex flex-col items-start justify-start">
           <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">
             Biography
