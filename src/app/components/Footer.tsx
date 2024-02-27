@@ -4,7 +4,7 @@ import Link from "next/link";
 const Footer = () => {
     const currentYear = new Date().getFullYear();
     return (
-        <footer className="w-full border-0 border-t-2 border-solid border-dark dark:border-light font-medium text-lg dark:text-light sm:text-base">
+        <footer className="w-full border-0 border-t-2 border-solid border-dark dark:border-light font-medium text-lg text-dark dark:text-light sm:text-base">
             <div
                 className={`w-full h-full z-0 bg-light dark:bg-dark p-24 sm:p-12 py-8 flex items-center justify-between lg:flex-col lg:py-6`}
             >
